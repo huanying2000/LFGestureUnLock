@@ -15,6 +15,15 @@
 		8105F7C31FC6708D00943552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7C21FC6708D00943552 /* main.m */; };
 		8105F7CD1FC6708D00943552 /* LFGestureUnLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7CC1FC6708D00943552 /* LFGestureUnLockTests.m */; };
 		8105F7D81FC6708D00943552 /* LFGestureUnLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7D71FC6708D00943552 /* LFGestureUnLockUITests.m */; };
+		8105F7EA1FC671DB00943552 /* DragRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7E91FC671DB00943552 /* DragRect.m */; };
+		8105F7ED1FC6729400943552 /* HideTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7EC1FC6729400943552 /* HideTrackView.m */; };
+		8105F7F01FC6738A00943552 /* GesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7EF1FC6738A00943552 /* GesManager.m */; };
+		8105F7F31FC698E400943552 /* TipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7F21FC698E400943552 /* TipLabel.m */; };
+		8105F7F61FC6997B00943552 /* Define.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7F51FC6997B00943552 /* Define.m */; };
+		8105F7F91FC69CB000943552 /* CALayer+anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7F81FC69CB000943552 /* CALayer+anim.m */; };
+		8105F7FC1FC6AAC700943552 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7FB1FC6AAC700943552 /* ContentView.m */; };
+		8105F7FF1FC6AE8B00943552 /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7FE1FC6AE8B00943552 /* RectView.m */; };
+		8105F8021FC6D18F00943552 /* SetHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F8011FC6D18F00943552 /* SetHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		8105F7D31FC6708D00943552 /* LFGestureUnLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFGestureUnLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8105F7D71FC6708D00943552 /* LFGestureUnLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFGestureUnLockUITests.m; sourceTree = "<group>"; };
 		8105F7D91FC6708D00943552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8105F7E81FC671DB00943552 /* DragRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragRect.h; sourceTree = "<group>"; };
+		8105F7E91FC671DB00943552 /* DragRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragRect.m; sourceTree = "<group>"; };
+		8105F7EB1FC6729400943552 /* HideTrackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HideTrackView.h; sourceTree = "<group>"; };
+		8105F7EC1FC6729400943552 /* HideTrackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideTrackView.m; sourceTree = "<group>"; };
+		8105F7EE1FC6738A00943552 /* GesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesManager.h; sourceTree = "<group>"; };
+		8105F7EF1FC6738A00943552 /* GesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesManager.m; sourceTree = "<group>"; };
+		8105F7F11FC698E400943552 /* TipLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipLabel.h; sourceTree = "<group>"; };
+		8105F7F21FC698E400943552 /* TipLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipLabel.m; sourceTree = "<group>"; };
+		8105F7F41FC6997B00943552 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		8105F7F51FC6997B00943552 /* Define.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Define.m; sourceTree = "<group>"; };
+		8105F7F71FC69CB000943552 /* CALayer+anim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+anim.h"; sourceTree = "<group>"; };
+		8105F7F81FC69CB000943552 /* CALayer+anim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+anim.m"; sourceTree = "<group>"; };
+		8105F7FA1FC6AAC700943552 /* ContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		8105F7FB1FC6AAC700943552 /* ContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		8105F7FD1FC6AE8B00943552 /* RectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectView.h; sourceTree = "<group>"; };
+		8105F7FE1FC6AE8B00943552 /* RectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
+		8105F8001FC6D18F00943552 /* SetHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetHeaderView.h; sourceTree = "<group>"; };
+		8105F8011FC6D18F00943552 /* SetHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +128,9 @@
 		8105F7B21FC6708D00943552 /* LFGestureUnLock */ = {
 			isa = PBXGroup;
 			children = (
+				8105F7E61FC6719E00943552 /* DragRect */,
+				8105F7E51FC6719E00943552 /* Controller */,
+				8105F7E71FC6719E00943552 /* Modules */,
 				8105F7B31FC6708D00943552 /* AppDelegate.h */,
 				8105F7B41FC6708D00943552 /* AppDelegate.m */,
 				8105F7B61FC6708D00943552 /* ViewController.h */,
@@ -130,6 +160,45 @@
 				8105F7D91FC6708D00943552 /* Info.plist */,
 			);
 			path = LFGestureUnLockUITests;
+			sourceTree = "<group>";
+		};
+		8105F7E51FC6719E00943552 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8105F7E61FC6719E00943552 /* DragRect */ = {
+			isa = PBXGroup;
+			children = (
+				8105F7E81FC671DB00943552 /* DragRect.h */,
+				8105F7E91FC671DB00943552 /* DragRect.m */,
+			);
+			path = DragRect;
+			sourceTree = "<group>";
+		};
+		8105F7E71FC6719E00943552 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8105F7EE1FC6738A00943552 /* GesManager.h */,
+				8105F7EF1FC6738A00943552 /* GesManager.m */,
+				8105F7EB1FC6729400943552 /* HideTrackView.h */,
+				8105F7EC1FC6729400943552 /* HideTrackView.m */,
+				8105F7F11FC698E400943552 /* TipLabel.h */,
+				8105F7F21FC698E400943552 /* TipLabel.m */,
+				8105F7FA1FC6AAC700943552 /* ContentView.h */,
+				8105F7FB1FC6AAC700943552 /* ContentView.m */,
+				8105F7FD1FC6AE8B00943552 /* RectView.h */,
+				8105F7FE1FC6AE8B00943552 /* RectView.m */,
+				8105F7F41FC6997B00943552 /* Define.h */,
+				8105F7F51FC6997B00943552 /* Define.m */,
+				8105F7F71FC69CB000943552 /* CALayer+anim.h */,
+				8105F7F81FC69CB000943552 /* CALayer+anim.m */,
+				8105F8001FC6D18F00943552 /* SetHeaderView.h */,
+				8105F8011FC6D18F00943552 /* SetHeaderView.m */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +335,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8105F7B81FC6708D00943552 /* ViewController.m in Sources */,
+				8105F7F31FC698E400943552 /* TipLabel.m in Sources */,
+				8105F8021FC6D18F00943552 /* SetHeaderView.m in Sources */,
+				8105F7FC1FC6AAC700943552 /* ContentView.m in Sources */,
+				8105F7FF1FC6AE8B00943552 /* RectView.m in Sources */,
+				8105F7F91FC69CB000943552 /* CALayer+anim.m in Sources */,
+				8105F7ED1FC6729400943552 /* HideTrackView.m in Sources */,
+				8105F7EA1FC671DB00943552 /* DragRect.m in Sources */,
+				8105F7F01FC6738A00943552 /* GesManager.m in Sources */,
 				8105F7C31FC6708D00943552 /* main.m in Sources */,
+				8105F7F61FC6997B00943552 /* Define.m in Sources */,
 				8105F7B51FC6708D00943552 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
