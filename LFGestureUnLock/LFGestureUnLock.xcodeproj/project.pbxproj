@@ -24,6 +24,9 @@
 		8105F7FC1FC6AAC700943552 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7FB1FC6AAC700943552 /* ContentView.m */; };
 		8105F7FF1FC6AE8B00943552 /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F7FE1FC6AE8B00943552 /* RectView.m */; };
 		8105F8021FC6D18F00943552 /* SetHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105F8011FC6D18F00943552 /* SetHeaderView.m */; };
+		8154A0A31FC7B2040007CC0B /* GesBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8154A0A21FC7B2040007CC0B /* GesBaseViewController.m */; };
+		8154A0A61FC7B84C0007CC0B /* SetGesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8154A0A51FC7B84C0007CC0B /* SetGesViewController.m */; };
+		8154A0A91FC7BDFF0007CC0B /* VerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8154A0A81FC7BDFF0007CC0B /* VerifyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,12 @@
 		8105F7FE1FC6AE8B00943552 /* RectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
 		8105F8001FC6D18F00943552 /* SetHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetHeaderView.h; sourceTree = "<group>"; };
 		8105F8011FC6D18F00943552 /* SetHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetHeaderView.m; sourceTree = "<group>"; };
+		8154A0A11FC7B2040007CC0B /* GesBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesBaseViewController.h; sourceTree = "<group>"; };
+		8154A0A21FC7B2040007CC0B /* GesBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesBaseViewController.m; sourceTree = "<group>"; };
+		8154A0A41FC7B84C0007CC0B /* SetGesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetGesViewController.h; sourceTree = "<group>"; };
+		8154A0A51FC7B84C0007CC0B /* SetGesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetGesViewController.m; sourceTree = "<group>"; };
+		8154A0A71FC7BDFF0007CC0B /* VerifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyViewController.h; sourceTree = "<group>"; };
+		8154A0A81FC7BDFF0007CC0B /* VerifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +174,12 @@
 		8105F7E51FC6719E00943552 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8154A0A41FC7B84C0007CC0B /* SetGesViewController.h */,
+				8154A0A51FC7B84C0007CC0B /* SetGesViewController.m */,
+				8154A0A71FC7BDFF0007CC0B /* VerifyViewController.h */,
+				8154A0A81FC7BDFF0007CC0B /* VerifyViewController.m */,
+				8154A0A11FC7B2040007CC0B /* GesBaseViewController.h */,
+				8154A0A21FC7B2040007CC0B /* GesBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -334,14 +349,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8154A0A31FC7B2040007CC0B /* GesBaseViewController.m in Sources */,
 				8105F7B81FC6708D00943552 /* ViewController.m in Sources */,
 				8105F7F31FC698E400943552 /* TipLabel.m in Sources */,
 				8105F8021FC6D18F00943552 /* SetHeaderView.m in Sources */,
 				8105F7FC1FC6AAC700943552 /* ContentView.m in Sources */,
 				8105F7FF1FC6AE8B00943552 /* RectView.m in Sources */,
 				8105F7F91FC69CB000943552 /* CALayer+anim.m in Sources */,
+				8154A0A91FC7BDFF0007CC0B /* VerifyViewController.m in Sources */,
 				8105F7ED1FC6729400943552 /* HideTrackView.m in Sources */,
 				8105F7EA1FC671DB00943552 /* DragRect.m in Sources */,
+				8154A0A61FC7B84C0007CC0B /* SetGesViewController.m in Sources */,
 				8105F7F01FC6738A00943552 /* GesManager.m in Sources */,
 				8105F7C31FC6708D00943552 /* main.m in Sources */,
 				8105F7F61FC6997B00943552 /* Define.m in Sources */,
